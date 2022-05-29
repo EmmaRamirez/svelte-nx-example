@@ -1,5 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "core": "libs/core",
+    "ui": "apps/ui",
+    "ui-e2e": "apps/ui-e2e"
+  }
 }
