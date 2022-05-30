@@ -1,0 +1,29 @@
+:root {
+    --background-color: hsl(200, 90%, 98%);
+    --text-color: hsl(0, 1%, 1%);
+
+    --primary-color: hsl(200, 50%, 50%);
+    --primary-color-dark: hsl(200, 50%, 25%);
+    --primary-color-light: hsl(200, 50%, 75%);
+
+    --accent-color: hsl(160, 75%, 65%);
+    --accent-color-dark: hsl(160, 50%, 45%);
+    --accent-color-light: hsl(160, 70%, 85%);
+
+    --intent-danger-color: hsl(10, 50%, 50%);
+    
+    --white: hsl(0, 100%, 100%);
+    --black: hsl(0, 0, 0);
+
+    --size-xs: .125rem;
+    --size-s: .25rem;
+    --size-m: .5rem;
+    --size-l: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: hsl(200, 5%, 2%);
+        --text-color: hsl(200, 99%, 99%);
+    }
+}

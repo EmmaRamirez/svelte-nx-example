@@ -24,7 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     /** Needed for the vite-tsconfig-paths vite plugin. */
     "checkJs": true,
-    "composite": true,
+    "composite": true
   },
   "files": [],
   "include": [],

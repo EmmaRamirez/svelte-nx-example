@@ -1,9 +1,10 @@
+/// <reference types="svelte" />
 import App from './App.svelte';
 
 const app = new App({
   target: document.body,
   props: {
-    name: 'ui',
+    name: 'to this example',
   },
 });
 
